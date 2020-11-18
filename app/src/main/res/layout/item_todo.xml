@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fonts="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="todo"
+            type="com.app.base.mainapp.data.source.remote.model.response.TodoItem" />
+    </data>
+
+      <androidx.cardview.widget.CardView
+            android:id="@+id/cv_todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/x17"
+            android:layout_marginTop="@dimen/x8"
+            android:layout_marginEnd="@dimen/x17"
+            android:layout_marginBottom="@dimen/x8"
+            android:clickable="true"
+          app:cardBackgroundColor="@color/colorPrimary"
+
+          android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.app.base.mainapp.utils.custom_views.CustomTextView
+            android:id="@+id/tv_user_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:lineHeight="@dimen/x17"
+            android:text="@{@string/user_id+' '+todo.id}"
+
+            android:padding="@dimen/x2"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/s12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            fonts:customTypeface="@string/neotech_helvetica" />
+
+        <com.app.base.mainapp.utils.custom_views.CustomTextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x2"
+
+            android:layout_marginVertical="@dimen/x2"
+            android:lineHeight="@dimen/x17"
+            android:text="@{@string/todo_title+' '+todo.title}"
+            android:textColor="@color/app_text_color_blue"
+            android:textSize="@dimen/s12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_user_id"
+            fonts:customTypeface="@string/Lato_Regular" />
+
+
+        <com.app.base.mainapp.utils.custom_views.CustomTextView
+            android:id="@+id/tv_completed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/x2"
+
+            android:layout_marginVertical="@dimen/x2"
+            android:lineHeight="@dimen/x17"
+
+            android:textColor="@{todo.completed != true ? @color/red:@color/app_card_green}"
+
+            android:text="@{@string/todo_completed+' '+todo.completed}"
+            android:textSize="@dimen/s12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            fonts:customTypeface="@string/Lato_Regular" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

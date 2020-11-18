@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+     <!--   <variable
+            name="item"
+            type="com.moh.covid.inspectorapp.data.source.remote.model.response.Nationality" />-->
+
+      <!--  <variable
+            name="arabicLang"
+            type="java.lang.Boolean"/>-->
+
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_50sdp"
+        >
+
+        <com.app.base.mainapp.utils.custom_views.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inspector_app"
+            android:textSize="@dimen/_22ssp"
+            android:gravity="center_horizontal"
+            />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_agency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/agency"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:text="nullisland"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="developer"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textSize="@dimen/_12ssp"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="accela"
+        />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/sp_environment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            />
+
+      <com.app.base.mainapp.utils.custom_views.CustomButton
+          android:id="@+id/buttonLogin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/txt_login"
+          style="@style/customButtonStyle"
+          android:layout_marginTop="@dimen/_16sdp"
+          />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

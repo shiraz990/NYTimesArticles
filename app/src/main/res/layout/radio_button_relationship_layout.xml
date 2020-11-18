@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="locale"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.app.base.mainapp.utils.custom_views.CustomRadioButton
+        android:id="@+id/relationshipValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x12"
+        android:button="@null"
+        android:fontFamily="@font/graphik_regular"
+        android:text="Husband"
+        android:textSize="@dimen/x18" />
+</androidx.appcompat.widget.LinearLayoutCompat>

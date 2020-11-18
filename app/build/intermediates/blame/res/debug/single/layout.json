@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\MainApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_todo.xml",
+        "source": "D:\\MainApp\\app\\src\\main\\res\\layout\\item_todo.xml"
+    },
+    {
+        "merged": "D:\\MainApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_base.xml",
+        "source": "D:\\MainApp\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "D:\\MainApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "D:\\MainApp\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "D:\\MainApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_nationality.xml",
+        "source": "D:\\MainApp\\app\\src\\main\\res\\layout\\item_nationality.xml"
+    },
+    {
+        "merged": "D:\\MainApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\MainApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\MainApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_registration_header.xml",
+        "source": "D:\\MainApp\\app\\src\\main\\res\\layout\\view_registration_header.xml"
+    }
+]

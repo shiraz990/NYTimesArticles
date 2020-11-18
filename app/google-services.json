@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "304293685342",
+    "firebase_url": "https://moh-app-fd793.firebaseio.com",
+    "project_id": "moh-app-fd793",
+    "storage_bucket": "moh-app-fd793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304293685342:android:6959b75e080fd9ce4feccf",
+        "android_client_info": {
+          "package_name": "com.app.base.mainapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304293685342-kj4ses8pd9i1hpdkb5jv1h6ts0ff5f12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_1-QvslYxjoVH82RXY0sNlbVPkqe6uX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304293685342-kj4ses8pd9i1hpdkb5jv1h6ts0ff5f12.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "304293685342-mu4rg3vs54bfui5epi6gbk5fefcj34iv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.etisalat.mohCovid19"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

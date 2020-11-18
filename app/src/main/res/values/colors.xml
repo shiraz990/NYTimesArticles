@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <color name="colorPrimary">#10BEAC</color>-->
+    <color name="colorPrimaryDark">#2B6D75</color>
+    <color name="colorAccent">#1BACD8</color>
+    <color name="text_color">#131313</color>
+    <color name="sub_title_color">#4D4B4B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#87caaa</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_transparent">#A6000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#E72E09</color>
+    <color name="light_gray">#9E9E9E</color>
+    <color name="bottom_line_light_gray">#757575</color>
+    <color name="notify_list_item_bg">#33D8D8D8</color>
+
+    <color name="checkbox_color_light_gray">#67FFFFFF</color>
+    <color name="profile_light_gray">#67000000</color>
+
+    <color name="app_primary_text_color">#2B6D75</color>
+    <color name="app_text_color_grey">#B1B2B3</color>
+    <color name="app_primary_text_color_light">#ABFFDF</color>
+    <color name="app_text_color_blue">#010A38</color>
+    <color name="app_text_color_black">#000000</color>
+    <color name="app_text_color_white">#ffffff</color>
+    <color name="app_text_color_red">#E72E09</color>
+    <color name="app_text_color_gray">#2B6D75</color>
+    <color name="app_edit_text_line">#B7D7CA</color>
+    <color name="app_card_green">#11A532</color>
+    <color name="app_card_yellow">#FFE500</color>
+    <color name="app_light_blue_background">#1C2B6D75</color>
+    <color name="app_background_color_white">#ffffff</color>
+    <color name="dialog_backgorund">#8e3723</color>
+
+    <color name="checkbox_color">#1C4D53</color>
+    <color name="checkbox_unselected_color">#8A010101</color>
+    <color name="checkbox_color_white">#FFFFFF</color>
+
+
+    <color name="questionere_selected">#2B6D75</color>
+    <color name="questionere_unselected">#662B6D75</color>
+    <color name="progress_color">#656666</color>
+    <color name="progress_color_white">#ffffff</color>
+
+    <color name="dotted_color">#bdd6cb</color>
+
+    <color name="transparent_white">#F30000</color>
+
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+    <color name="gray_color">#449E9E9E</color>
+    <color name="member_type_parent_background">#21565D</color>
+    <color name="member_type_background">#173F44</color>
+    <color name="children_note_color">#B6D7CA</color>
+</resources>

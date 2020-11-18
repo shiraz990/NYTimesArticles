@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">MOH</string>
+    <string name="translate" translatable="false">English</string>
+
+    <string name="app_version">نسخة التطبيق</string>
+    <string name="news_detail">News Details</string>
+    <string name="ok_txt">موافق</string>
+
+    <string name="title_registration">التسجيل</string>
+    <string name="arabic_name">English</string>
+    <string name="registration_page_one_title">أنا..</string>
+    <string name="registration_page_one_description">Please answer strictly based on your current visa status in the UAE</string>
+    <string name="title_uae_citizen">مواطن إماراتي/مقيم</string>
+    <string name="title_international_visitor">زائر من دولة أخرى</string>
+    <string name="registration_mobile_number">رقم موبايلي هو..</string>
+    <string name="registration_static_number">+971</string>
+    <string name="title_verify_number">التحقق من الرقم</string>
+    <string name="title_enter_verification_code">يرجى إدخال رمز التحقق المرسل إلى الرقم:</string>
+    <string name="title_resend_code">أعد إرسال الرمز</string>
+    <string name="code_active_status">تسري صلاحية الرمز لمدة 10 دقائق</string>
+    <string name="to_label"></string>
+
+    <!-- Scan -->
+    <string name="scan_emirates_id_again">يرجي اعاده مسح الهويه الامارتيه</string>
+    <string name="title_scan_em_id"> قم بمسح بطاقة هوية دولة الإمارات الجهة الأمامية</string>
+    <string name="message_upload_doc">حمّلها بدلاً عن ذلك</string>
+
+    <!-- Scan Emirates ID-->
+    <string name="message_keep_font">حاول ابقاء الجهة الأمامية لبطاقة الهوية ضمن الإطار كي يتم مسحها تلقائياً</string>
+    <string name="title_cancel">إلغاء</string>
+    <string name="title_upload_doc">UPLOAD DOCUMENT</string>
+    <string name="title_submit_front_scan">أرسل صورة الجهة الأمامية</string>
+    <string name="back_scan_header">مسح الجانب الخلفي لبطاقة الهوية الإماراتية</string>
+    <string name="title_validate_emiratesid">التحقق من بطاقة الهوية الإماراتية</string>
+    <string name="message_keep_back">حاول ابقاء الجهة الخلفية لبطاقة الهوية ضمن الإطار كي يتم مسحها تلقائياً</string>
+
+    <string name="title_open_camera">افتح الكاميرا</string>
+    <string name="your_health">صحتك</string>
+    <string name="our_priority">أولويتنا</string>
+    <string name="combat_covid">حارب\nCOVID-19</string>
+    <string name="find_out_more">اكتشف المزيد</string>
+    <string name="help_our_country">لنساعد وطننا الحبيب في القضاء والسيطرة على انتشار فيروس CoVid19 والعودة لممارسة حياتنا الطبيعية بأسرع وقت ممكن. فمع تكاتف جهود الجميع في تبادل المعلومات، سنكون أقوى وسنتمكن من رعاية بعضنا الآخر. \n\n سيُطلب منك الآن تسجيل اسمك والإجابة على بعض الأسئلة حول الأعراض، والسفر، والاتصال الذي تعرضت له مع الآخرين.</string>
+    <string name="centre_your_face">ركّز وجهك في منتصف الشاشة</string>
+    <string name="your_emirates_id">تفاصيل بطاقة الهوية الإماراتية الخاصة بك</string>
+    <string name="continue_txt">متابعة</string>
+    <string name="photo_verification">التحقق من الصورة</string>
+    <string name="Video_verification">التحقق من الفيديو</string>
+    <string name="photo_verification_desc">يرجى  التقاط صورة شخصية لك لمساعدتنا بالتحقق من بطاقة الهوية الخاصة بك</string>
+    <string name="retake_txt">التقاط صورة جديدة</string>
+    <string name="use_photo_txt">استخدام الصورة</string>
+    <string name="default_notification_channel_id">covid_notifications</string>
+    <string name="add_family">Add Family</string>
+    <string name="add_family_desc">It is required that all citizens are registered. Should your dependants not be able to do it themselves, you can do so on their behalf.</string>
+    <string name="add_family_desc_sub">Please note that if you choose this option, you will be held responsible for them following the app\'s symptom screening results.</string>
+    <string name="proceed_label">Proceed</string>
+    <string name="location_permission_message">You will have to allow Location permission in order to post your current
+        location.\n\nYou can revoke the permission manually from Settings->Apps->Permissions
+    </string>
+    <string name="self_assesment_title">الفحص الذاتي</string>
+    <string name="title_assesment_question">أسئلة الفحص الذاتي</string>
+    <string name="sub_title_question">ما نوع الأسئلة؟</string>
+    <string name="questions_text">في هذا القسم، سيتم سؤالك مجموعة من الأسئلة البسيطة التي ستساعد في تحديد مدى التعرض للفيروس. </string>
+    <string name="sub_title_resut">ما هي النتيجة؟</string>
+    <string name="results_text">استناداً إلى إجاباتك، سيتم تعيين رمز لوني يمثل مستوى الخطر الذي تعرضت له، وبالتالي الإجراءات التي يجب عليك اتخاذها لرعاية نفسك والآخرين حولك</string>
+    <string name="start_assesment">ابدأ الفحص</string>
+    <string name="back_with_bracket"><![CDATA[< عودة]]></string>
+    <string name="next_with_bracket"><![CDATA[التالي >]]></string>
+    <string name="finish">إنهاء</string>
+
+    <string name="add_location_txt">إضافة الموقع</string>
+    <string name="add_emergency_contact_label">أضف تفاصيل شخص للاتصال عند الطوارئ</string>
+    <string name="edit_emergency_contact_label">تعديل جهة اتصال الطوارئ</string>
+    <string name="mobile_number_label">رقم الموبايل</string>
+    <string name="home_combat_covid">حارب COVID-19</string>
+    <string name="your_status">حالتك</string>
+    <string name="your_status_small">حالتك:</string>
+    <string name="status_at_risk_text">أظهر فحصك الذاتي</string>
+    <string name="not_risk"> أنك بمأمن من فيروس COVID-19..</string>
+    <string name="high_risk"> أنك على مستوى عال من خطر الإصابة بفيروس COVID-19..</string>
+    <string name="what_should_i_do_now">ماذا يجب ان افعل الان؟</string>
+    <string name="get_help">احصل على مساعدة</string>
+    <string name="help_details">إذا تفاقمت الأعراض ، اتصل بالرقم 24 ساعة في اليوم أدناه لطلب المساعدة الطبية الفورية.</string>
+    <string name="estijaba_service">خدمة إستجابا</string>
+    <string name="departmet_health">في قسم الصحة</string>
+    <string name="emergency_call">لحالات الطوارئ ، يرجى الاتصال بالرقم 999</string>
+    <string name="confirm_details">تأكيد المعلومات</string>
+    <string name="emirates_id">رقم بطاقة الهوية الإماراتية</string>
+    <string name="primary_location">العنوان الرئيسي</string>
+    <string name="emergency_contact_label">الاتصال عند الطوارئ</string>
+    <string name="i_agree_with">أوافق على </string>
+    <string name="confirm_account">تأكيد الحساب</string>
+    <string name="registration_successful">تم التسجيل بنجاح</string>
+    <string name="proceed_to_self_assesment">المتابعة إلى الفحص الذاتي</string>
+    <string name="title_submit_back_scan">أرسل صورة الجهة الخلفية</string>
+    <string name="title_upload_back">إعادة تحميل الصورة</string>
+    <string name="message_upload_back">إعادة تحميل الصورة</string>
+    <string name="emergency_contact_error">لا يمكن أن يكون اتصال الطوارئ هو نفس رقم هاتفك المحمول.</string>
+    <string name="txt_terms_and_conditions_label"><![CDATA[الشروط والأحكام]]></string>
+    <string name="title_assesment_results">نتيجة الفحص الذاتي</string>
+    <string name="results_desciption">معلوماتك قيّمة للغاية وستساعدنا مع معلومات أخرى كثيرة في الانتصار على COVID-19.</string>
+    <string name="please_answer_all_questions">يرجى الإجابة على جميع الأسئلة</string>
+    <string name="question_label">السؤال</string>
+    <string name="of_label">من</string>
+    <string name="search">بحث</string>
+    <string name="something_went_wrong">هناك خطأ ما</string>
+    <string name="first_number_validateion"> يجب أن يكون 5 قطع على الأقل</string>
+    <string name="last_name_validateion">يجب أن يكون الاسم الأول 5 أحرف على الأقل</string>
+    <string name="emirates_number_validateion">يجب ألا يقل عدد الإمارات عن 15 حرفاً</string>
+    <string name="turn_on_location">يرجى تشغيل موقعك</string>
+    <string name="permission_not_provided">يرجى تقديم إذن للوصول إلى الموقع</string>
+    <string name="retake_assement_title">إعادة الفحص الذاتي من جديد</string>
+    <string name="retaike_question_title">يمكنك إعادة إجراء الفحص الذاتي بإحدى الحالتين التاليتين:</string>
+    <string name="retake_question_description">1. في حال شعرت أن النتيجة غير صحيحة\n\n2. في حال مرور 7 أيام منذ إجراء آخر فحص وطلب منك إعادة الفحص من جديد.</string>
+    <string name="retake_assement">إعادة الفحص الذاتي من جديد</string>
+    <string name="chracters_not_allowed">الأحرف غير مسموح بها</string>
+    <string name="retake_assement_detail">إذا كنت تشعر أن هناك حاجة إلى إصلاح نتائجك ، فيمكنك  <font fgcolor='#11A532'><u> إعادة إجراء التقييم الذاتي </u></font>.</string>
+    <string name="your_status_is">حالتك هي</string>
+    <string name="what_your_status_means">ماذا تعني حالتك</string>
+    <string name="base_on_your_answer_green">بناءً على إجاباتك ، فأنت أقل عرضة للإصابة بـ COVID-19.</string>
+    <string name="steps_to_help">إليك بعض الخطوات لمساعدتك على الاستمرار في حماية نفسك:</string>
+    <string name="your_next_steps">خطواتك القادمة</string>
+    <string name="contact_estijaba_yellow">اتصل بخط Estijaba الساخن في أقرب وقت ممكن ، وسيسعد فريقنا بمساعدتك بشأن توصيات الاختبار والخطوات التالية.</string>
+    <string name="clean_hands_regularly">نظف يديك بانتظام وشامل باستخدام فرك اليدين بالكحول أو اغسلهما بالماء والصابون.</string>
+    <string name="maintain_distance">حافظ على مسافة 2 متر على الأقل بينك وبين أي شخص يسعل أو يعطس.</string>
+    <string name="avoid_touching">تجنب لمس عينيك وأنفك وفمك بأيدي غير مغسولة / معقمة</string>
+    <string name="for_your_safety">من أجل سلامتك وسلامة أحبائك ، يرجى البقاء #معًا في المنزل</string>
+    <string name="retake_assessment">إعادة الفحص الذاتي من جديد</string>
+    <string name="title_family_members">أفراد العائلة</string>
+
+    <string name="hello_blank_fragment">مرحبًا بجزء فارغ</string>
+    <string name="cameera_permission_message">يجب عليك السماح بإذن الكاميرا لمسح هوية الإمارات ضوئيًا. \ n \ n يمكنك إبطال الإذن يدويًا من الإعدادات-> التطبيقات-> الأذونات</string>
+    <string name="emirates_id_label">رقم الهوية الإماراتية</string>
+    <string name="remove_location_updates">إزالة الموقع</string>
+    <string name="launch_activity">نشاط الإطلاق</string>
+    <string name="message_reg_unsuccessfull">التسجيل غير ناجح</string>
+
+    <string name="based_on_your_answer_green">بناءً على إجاباتك ، فأنت أقل عرضة للإصابة بـ COVID-19.</string>
+    <string name="based_on_your_answer_red">بناءً على إجاباتك ، فأنت أكثر عرضة للإصابة بـ COVID-19 ونوصي بالتحدث إلى أخصائي طبي بشأن إجراء الاختبار.</string>
+    <string name="based_on_your_answer_yellow">بناءً على إجابات التقييم الذاتي ، فأنت أكثر عرضة للإصابة بـ COVID-19 ونوصي بالتحدث إلى الخدمات الصحية حول إجراء الاختبار.</string>
+    <string name="ensure_you_are_isolating">تأكد من عزل نفسك عن الآخرين. من خلال القيام بذلك ، يمكنك إبطاء انتشار COVID-19 وحماية عائلتك وأصدقائك ومجتمعك.</string>
+    <string name="contact_estijaba_red">يُرجى الاتصال بالرقم أدناه في أقرب وقت ممكن ، وسيسعد فريقنا بمساعدتك بشأن توصيات الاختبار والخطوات التالية.</string>
+
+    <string name="scanning">البحث عن أجهزة المرشد</string>
+    <string name="one_message">يتم المسح. تم العثور على رسالة واحدة</string>
+    <string name="many_messages">يتم المسح. الرسائل الموجودة</string>
+    <string name="permission_denied">تم رفض إذن استخدام الأجهزة المجاورة. لا يمكن الاشتراك.</string>
+    <string name="permission_denied_explanation">تم رفض الإذن ، ولكن هناك حاجة. اذهب للاعدادات.</string>
+    <string name="settings">إعدادات</string>
+    <string name="permission_rationale">مطلوب إذن الموقع عند المسح بحثًا عن منارات مع الأجهزة المجاورة.</string>
+    <string name="what_should">ماذا يجب ان تفعل</string>
+
+    <!--  Walk Through Strings Starts -->
+    <string name="step_one">الخطوة 1</string>
+    <string name="step_two">الخطوة 2</string>
+    <string name="step_three">الخطوة 3</string>
+    <string name="skip">تخطى</string>
+    <string name="next">التالي</string>
+    <string name="start_title">ابدأ</string>
+    <string name="register_your_details">سجل معلوماتك</string>
+    <string name="register_yourself_desc">سجل بياناتك الشخصية وبيانات أفراد عائلتك لنعرف المزيد عنكم.</string>
+    <string name="complete__quick_assessment">اكمل الفحص الذاتي السريع</string>
+    <string name="assessment_desc">أجب عن بعض الأسئلة لتعرف مدى سوء إصابتك بفيروس COVID-19 وماذا يمكنك فعله للحصول على المساعدة.</string>
+    <string name="keep_community_safe">حافظ على سلامتك وسلامة مجتمعك</string>
+    <string name="keep_community_safe_desc">احصل على النصائح، واستلم التنبيهات واحدث المعلومات حول فيروس COVID-19 وساهم بالمحافظة على سلامة وصحة الجميع.</string>
+    <string name="default_notification_channel_name">قناة الإخطارات</string>
+    <string name="title">المراقبة</string>
+
+    <!-- Walk Through Strings ends-->
+    <string name="home_label">الصفحة الرئيسية</string>
+    <string name="profile_label">الحساب</string>
+    <string name="monitoring">يرجى التحقق من تشغيل البلوتوث والموقع</string>
+    <string name="loading_results">تحميل نتيجتك</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="last_name">الكنية</string>
+    <string name="nationality">الجنسية</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="example_home">مثلا: عنوان المنزل او عنوان الفندق</string>
+    <string name="primary_txt">الأساسي</string>
+    <string name="near_hospital">أقرب مستشفى</string>
+    <string name="work_txt">العمل</string>
+    <string name="add_loc_primary">إضافة موقع: الأساسي</string>
+    <string name="add_loc_hospital">إضافة الموقع: أقرب مستشفى</string>
+    <string name="add_loc_work">إضافة موقع: العمل</string>
+    <string name="more_property_desc">في حال كان لديك أكثر من عقار، يرجى ذكر عنوان العقار الذي تقيم فيه خلال فترة التعقيم الوطني</string>
+    <string name="work_desc">إن كنت تعمل في أكثر من موقع واحد، فيرجى إضافة العنوان الذي تقضي فيه معظم وقتك</string>
+    <string name="hospital_desc"> </string>
+    <string name="save_location">حفظ الموقع</string>
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="covid_19_self_assessment"> الفحص الذاتي COVID-19 </string>
+    <string name="covid_19_news">COVID-19 أخبار</string>
+    <string name="notifications">إشعارات</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="selected_location">الموقع المحدد</string>
+    <string name="none_added">تمت إضافة أي شيء.</string>
+
+    <string name="daily_check_in">Daily Check In</string>
+    <string name="selfie_alert">Please go back and retake selfie</string>
+    <string name="success_message">تم التقاط البيانات بنجاح</string>
+    <string name="navigation_btn_message">انتقل للرئيسية</string>
+    <string name="message_upload_front_gallery">حمّل الجهة الأمامية لبطاقة الهوية</string>
+    <string name="message_upload_back_gallery">حمّل الجهة الخلفية لبطاقة الهوية</string>
+    <string name="hours_ago">منذ ساعة</string>
+    <string name="days_ago">منذ يوم</string>
+    <string name="minutes_ago">منذ دقيقة</string>
+    <string name="call_number">800 1717</string>
+    <string name="isolate_yourself">اعزل نفسك</string>
+    <string name="contact_department_of_health">اتصل بقسم الصحه</string>
+    <string name="red_label">أحمر</string>
+    <string name="green_label">أخضر</string>
+    <string name="yellow_label">أصفر</string>
+    <string name="doh_profile_notice">لقد تم تعيينك في هذا الملف الشخصي من قبل وزارة الصحة</string>
+    <string name="select_country">حدد الدولة</string>
+    <string name="upload_passwort_id">تحميل صفحة الصورة من جواز السفر</string>
+    <string name="passport_number">رقم جواز السفر</string>
+    <string name="your_passport_details">بيانات جواز سفرك</string>
+    <string name="option_selected">تم اختيار %1$s أعراض</string>
+    <string name="select_all_that_apply">اختر جميع الحالات التي تنطبق عليك</string>
+    <string name="doh_profile_notice_red">تؤكد نتائجك أنك أثبتت الاختبارات الإيجابية لـ COVID-19. \n\n من أجل الاستمرار في حماية نفسك والآخرين ، يتعين عليك اعتماد تدابير الحجر الذاتي.</string>
+    <string name="doh_profile_notice_yellow">تؤكد نتائجك أنك اختبرت سلبيًا لـ COVID-19. \n\n من أجل الاستمرار في حماية نفسك والآخرين ، يتعين عليك اعتماد إجراءات الحجر الذاتي.</string>
+    <string name="c_one">1. توقع 14 يومًا على الأقل في عزلة بالمنزل</string>
+    <string name="c_two">2. تأكد من أن لديك ما يكفي من أي وصفة طبية وأدوية بدون وصفة طبية تحتاج إلى أن تستمر لبضعة أسابيع.</string>
+    <string name="c_three">3. تأكد من توفر غرفة مفردة وحمام خاص داخل منزلك.</string>
+    <string name="c_four">4. تأكد من أن لديك حق الوصول إلى الاتصالات (بما في ذلك الهاتف و / أو البيانات) للمراقبة من قبل العاملين الصحيين ، والإبلاغ عن تغيير في الأعراض والوصول إلى الخدمات.</string>
+<!--    <string name="status_at_risk_more">من أجل الاستمرار في حماية نفسك والآخرين ، يتعين عليك اعتماد تدابير الحجر الصحي الذاتي. </string>-->
+
+
+    <string name="add_document">إضافة وثيقة</string>
+    <string name="select_one">اختر واحدة:</string>
+    <string name="emirates_id_open">بطاقة الهوية الإماراتية</string>
+    <string name="passport_id_open">جواز السفر </string>
+    <string name="emergency_contact_update_title">تم تحديث جهة اتصال الطوارئ</string>
+    <string name="what_should_i_do"><u>ماذا يجب أن أفعل</u></string>
+    <string name="should_do_negative"> ماذا تعني نتائجك؟\n\nتؤكد نتائجك أنك اختبرت <b>سلبيًا</b>  لـ COVID-19. من أجل سلامتك أنت والآخرين ، ما زلت تنصح بتبني إجراءات الحجر الصحي الذاتي. سيسمح لنا ذلك بمتابعة مراقبة صحتك وأي تغيير في الأعراض</string>
+    <string name="should_do_positive">ماذا تعني نتائجك؟\n\n تؤكد نتائجك أنك أثبتت الاختبارات الإيجابية لـ COVID-19. في حين أنه من المحتمل أن يكون هذا وقتًا مقلقًا للغاية بالنسبة لك ولعائلتك ، من خلال اتباع الخطوات أدناه ، ستجد أنه من الأسهل التعامل مع مرحلة الحجر الصحي وستحمي نفسك والآخرين.</string>
+    <string name="id_expiry_date">تاريخ انتهاء الهوية</string>
+    <string name="qr_code_scan">مسح رمز الاستجابة السريعة</string>
+    <string name="individual_status">الحالة الفردية:</string>
+    <string name="negative">سلبيً</string>
+    <string name="positive">الإيجابية</string>
+    <string name="what_your_results_mean">ما يعني النتائج الخاصة بك؟</string>
+    <string name="doh_note">\n\nللحصول على إرشادات الحجر الصحي المنزلي بالكامل ، يرجى النقر هنا.</string>
+    <string name="please_click_here"> يرجى النقر هنا</string>
+    <string name="yellow_status_message">تشير هذه الحالة إلى أن هذا الشخص يشكل خطرًا أكبر لنقل COVID 19.</string>
+    <string name="red_status_message">تشير هذه الحالة إلى أن هذا الشخص يشكل خطرًا أكبر لنقل COVID 19.</string>
+    <string name="green_status_message">تشير هذه الحالة إلى أن هذا الشخص يشكل خطرًا منخفضًا لإرسال COVID 19.</string>
+    <string name="location_unaavailable">الموقع غير متاح</string>
+    <string name="error_emirates_id_expired">هوية الامارات منتهية الصلاحية. يرجى المسح مع بطاقة الإمارات صالحة.</string>
+    <string name="members_listing_title">تسجيل الأشخاص الآخرين</string>
+    <string name="members_listing_description">يمكنك تسجيل أفراد عائلتك أو الأشخاص العاملين في منزلك الذين يقيمون حالياً في دولة الإمارات.</string>
+    <string name="submit_registration">انتقل إلى المنزل</string>
+    <string name="total_number_of_people">عدد الأشخاص المضافين: </string>
+    <string name="children_title">الأطفال</string>
+    <string name="children_note">تحت سن الـ 18</string>
+    <string name="adults_title">الكبار</string>
+    <string name="adults_note">أكثر من 18 سنة وليس لديهم أجهزة هاتف ذكية</string>
+    <string name="number_verified">تم التحقق من الرقم</string>
+    <string name="smartphone_activation">تفعيل الهاتف الذكي</string>
+    <string name="mobile_verification_info">Smart Phone Activitation</string>
+    <string name="decription">بعد إتمام التسجيل بنجاح، سيستلم أطفالك المسجلين رسالة نصية لتحميل تطبيق COMBAT COVID-19 على هواتفهم.n\n\يجب عليهم إدخال الرمز الفريد لتأكيد هوياتهم وتفعيل تسجيلهم.</string>
+    <string name="activation_note">حتى الآن، لم يتم تفعيل التطبيق على هواتف أطفالك.</string>
+    <string name="send_activation_code">أعد إرسال الرسالة النصية إلى الرقم %1s</string>
+    <string name="other_people">الأشخاص الآخرون</string>
+    <string name="more_infoormation">المزيد من المعلومات</string>
+    <string name="referral_code">رمز الإحالة</string>
+    <string name="referral_code_sent_to">يرجى إدخال رمز الإحالة المرسل إلى: </string>
+    <string name="age_verification">التحقق من العمر</string>
+    <string name="enter_your_dob">يرجى إدخال تاريخ ميلادك</string>
+    <string name="family_members_info">أفراد العائلة والعمالة المنزلية </string>
+    <string name="view_all">عرض الكل</string>
+    <string name="no_people">No other people added</string>
+    <string name="add_now">Add now</string>
+    <string name="cannot_activate_child">Cannot activate child</string>
+    <string name="your_account">حسابك</string>
+    <string name="you_can_register">يمكنك تسجيل أفراد عائلتك أو الأشخاص العاملين في منزلك
+الذين يقيمون حالياً في دولة الإمارات.</string>
+
+    <string name="who_can_you_register">من يمكنك تسجيلهم؟</string>
+
+    <string name="this_could_be_your">قد يكونوا:n\•الأولاد/البناتn\•الزوج/الزوجةn\•الأخ/الأختn\•الوالدينn\الجدينn\•العمالة المنزلية (الخادمة/المربية/السائق.. إلخ)</string>
+    <string name="you_can_only">*من ليس لديهم أجهزة هاتف ذكية خاصة بهم ولا يستطيعون تسجيل أنفسهم.</string>
+    <string name="title_continue">متابعة</string>
+
+
+    <string name="title_register_child">تسجيل طفل</string>
+    <string name="title_personal_details">المعلومات الشخصية</string>
+    <string name="title_upload_emir_id"><b>هويته/هويتها</b>يرجى تحميل نسخة عن بطاقة</string>
+    <string name="title_upload_scan_of_doc">Upload scan of document</string>
+    <string name="title_take_pic_phone">Take picture with phone camera</string>
+
+    <string name="title_own_mobile_phone">هل يمتلك/تمتلم جهاز هاتف ذكي؟</string>
+    <string name="title_self_assessment">فحص الأعراض من 5 خطوات وهو إجباري لجميع الأشخاص المسجلين. يمكن إتمام هذا في وقت لاحق.</string>
+    <string name="title_complete_self_Asses"><u>إتمام الفحص الذاتي</u></string>
+
+    <string name="title_id_number">رقم الهوية</string>
+    <string name="title_add_phone_number"><u>أضف رقم الموبايل</u></string>
+
+    <string name="title_add_mobile_number">أضف رقم الموبايل</string>
+    <string name="child_uses_own">إن كان الطفل يستخدم جهاز هاتف خاص به، فيرجى إدخال الرقم هنا:</string>
+    <string name="title_success">تهانينا!</string>
+    <string name="message_you_have_verified">تم التحقق بنجاح من الرقم: </string>
+    <string name="message_child_will_rec">سيستلم طفلك/طفلتك رسالة نصية  لتحميل تطبيق COMBAT COVID-19 على هاتفه/هاتفها.n\يجب إدخال الرمز لتأكيد هويته/هويتها وتفعيل التسجيل.</string>
+    <string name="message_cont">متابعة</string>
+    <string name="this_could_be"> قد يكونوا:n\•بناتكn\•أولادك</string>
+    <string name="years_old_and_above">عمر 18 سنة</string>
+    <string name="continue_to_registration">متابعة</string>
+    <string name="under_years_old">تحت سن الـ 18</string>
+    <string name="title_name">الاسم</string>
+
+    <string name="title_your_consent">موافقتك مطلوبة</string>
+    <string name="message_your_consent"><u>الشروطوالأحكام</u>بإدخال رقم موبايل طفلك فأنت توافق  على السماح لتطبيق COVID-19 بتتبع موقعه. لمزيد من المعلومات، يرجى قراءة</string>
+
+    <string name="title_use_camera">استخدام الكاميرا</string>
+    <string name="title_upload_file">تحميل الصورة</string>
+
+    <string name="clear_details_resubmit"><u>مسح البيانات وإعادة التقديم</u></string>
+
+    <string name="title_register_adult">Register Adult</string>
+    <string name="you_can_register_adult">يمكنك تسجيل الكبار الذين لا يمتلكون هاتف ذكي خاص بهم. في حال كان لديهم هاتف،  فيتوجب عليهم تحميل التطبيق وتسجيل أنفسهم.</string>
+    <string name="do_they_have_mob">هل لديه/لديها رقم موبايل؟</string>
+
+    <string name="live_with_you">هل يعيش/تعيش معك؟</string>
+    <string name="please_enter_their_address"><u>Please enter their address</u></string>
+    <string name="selected_address">العنوان المختار</string>
+    <string name="change_address"><u>تغيير العنوان</u></string>
+    <string name="title_confirm_reg">تأكيد التسجيل</string>
+    <string name="title_delete_profile">حذف الملف الشخصي</string>
+    <string name="title_confirm_changes">تأكيد التغييرات</string>
+
+    <string name="adults">وما فوق</string>
+
+    <string name="please_note">يرجى العلم أن التسجيل إجباري لكل من يعيش في دولة الإمارات.</string>
+    <string name="register_other_now">Register Others Now</string>
+    <string name="view_label">رأي</string>
+    <string name="title_results">نتيجة</string>
+    <string name="title_for">إلى عن على</string>
+    <string name="their_status_is">الحالة</string>
+    <string name="status_detail">هذه المعلومات بغاية الأهمية وبتعاوننا معاً سنتمكن جميعاً من كسب معركتنا ضد فيروس COVID-19.</string>
+    <string name="title_relationship">العلاقة</string>
+    <string name="title_please_select">يرجى الاختيار</string>
+    <string name="please_select_their_res">يرجى تحديد عنوان إقامتهم الحالي</string>
+
+    <string name="title_are_you_sure">هل أنت متأكد من رغبتك بحذف هذا الملف الشخصي؟</string>
+    <string name="title_profile_delete">يمكن حذف هذا الملف الشخصي ولكن يمكنك إعادة تسجيل هذا الشخص مرة أخرى</string>
+    <string name="title_yes_sure">نعم متأكد</string>
+
+    <string name="child">%1s الطفل</string>
+    <string name="adult">%1s الشخص الكبير</string>
+    <string name="activation_successful">تم التفعيل بنجاح</string>
+    <string name="title_show_result">إظهار النتائج لـ</string>
+    <string name="title_all">جميع المستخدمين</string>
+    <string name="title_edit_profile">تعديل الملف الشخصي</string>
+    <string name="status">الحالة:</string>
+    <string name="title_please_scan">يرجى مسح أو تحميل المستند أولاً</string>
+    <string name="title_asses_comp">اكتمال التقييم</string>
+    <string name="results">نتيجة</string>
+    <string name="title_submit">إرسال</string>
+
+    <string name="please_check_internet">لا يوجد اتصال بالشبكة. يرجى  المحاولة مرة أخرى</string>
+</resources>

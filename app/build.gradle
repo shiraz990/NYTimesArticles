@@ -1,0 +1,151 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-allopen'
+apply plugin: "kotlin-kapt"
+apply plugin: 'kotlin-android-extensions'
+apply plugin: "androidx.navigation.safeargs.kotlin"
+apply plugin: "com.google.gms.google-services"
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.app.base.mainapp"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        release {
+            // Signing configs
+            storeFile file("../keystore/release_latest")
+            storePassword 'Covidet12345'
+            keyAlias 'covid'
+            keyPassword 'Covidet12345'
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField 'Boolean', 'IS_DEBUG', 'true'
+            buildConfigField 'String', 'BASE_URL', '"https://jsonplaceholder.typicode.com/"'
+            //   buildConfigField 'String', 'BASE_URL', '"http://www.mocky.io/v2/"'
+        }
+        release {
+            signingConfig signingConfigs.release
+
+            buildConfigField 'Boolean', 'IS_DEBUG', 'false'
+            buildConfigField 'String', 'BASE_URL', '"https://mobile-adptc.etisalat.ae/moh-rest/"'//'"https://mobile-adptc.etisalat.ae/moh-rest/"'
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    //REST - APIService
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+
+    //Koin
+    implementation "org.koin:koin-core:$koin_version"
+    implementation "org.koin:koin-android:$koin_version"
+    implementation "org.koin:koin-android-viewmodel:$koin_version"
+    implementation "org.koin:koin-android-architecture:$koin_architecture_version"
+
+    //Coroutines Libs
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+
+    // fragment navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.chaos.view:pinview:1.4.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // Kotlin libraries
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+
+    implementation 'io.github.microutils:kotlin-logging:1.7.6'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+//    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.1.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    implementation 'com.google.firebase:firebase-analytics:17.3.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.5'
+
+    // Add the Firebase SDK for Crashlytics.
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.0-beta04'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation 'androidx.room:room-rxjava2:2.2.5'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.2.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.2.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'io.fotoapparat:fotoapparat:2.7.0'
+    implementation 'com.otaliastudios:cameraview:2.6.1'
+    implementation 'com.google.android.gms:play-services-nearby:17.0.0'
+
+//    implementation('com.crashlytics.sdk.android:crashlytics:2.2.0@aar') {
+//        transitive = true
+//    }
+//    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
+    //Rx
+    implementation "io.reactivex.rxjava2:rxjava:2.2.0"
+    implementation "io.reactivex.rxjava2:rxandroid:2.1.0"
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'com.kaopiz:kprogresshud:1.2.0'
+
+    implementation 'com.yakivmospan:scytale:1.0.1'
+
+    implementation 'com.xfinity:dahdit:0.9.3'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'me.dm7.barcodescanner:zbar:1.8.4'
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    implementation 'com.google.zxing:core:3.3.2'
+    implementation 'com.scottyab:rootbeer-lib:0.0.8'
+
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.j256.ormlite:ormlite-core:5.0'
+    implementation 'com.j256.ormlite:ormlite-android:5.0'
+
+}
