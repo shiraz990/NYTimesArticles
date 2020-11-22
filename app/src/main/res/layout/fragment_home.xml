@@ -7,10 +7,18 @@
     <data>
 
     </data>
-<androidx.constraintlayout.widget.ConstraintLayout
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/todo_list"
@@ -23,4 +31,5 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
 </layout>

@@ -49,15 +49,15 @@
                         android:tint="@color/black"/>
 
                     <com.app.base.mainapp.utils.custom_views.CustomTextView
-                        android:id="@+id/tv_title"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_centerInParent="true"
-                        android:layout_marginStart="@dimen/_22sdp"
-                        android:gravity="center"
-                        android:text=""
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_17ssp"
+                            android:id="@+id/tv_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="@dimen/_22sdp"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_17ssp"
                         />
                 </RelativeLayout>
             </androidx.appcompat.widget.Toolbar>
